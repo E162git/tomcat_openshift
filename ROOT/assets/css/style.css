@@ -1,0 +1,207 @@
+.btn-default {
+    border-color: #ccc;
+}
+
+.tab-content .choice {
+  text-align: center;
+  cursor: pointer;
+  margin-top: 38px;
+}
+
+.tab-content .choice i {
+    font-size: 32px;
+    line-height: 55px;
+}
+
+.btn-radio {
+	width: 100%;
+}
+.img-radio {
+	opacity: 0.8;
+	margin-bottom: 5px;
+}
+
+.space-20 {
+    margin-top: 20px;
+}
+
+/* active buttons */
+#status-buttons a.active span.round-tabs.one {
+    background: dodgerblue;
+    color: #fff
+}
+
+#status-buttons a.active span.round-tabs.two {
+    background: #febe29;
+    color: #fff
+}
+
+#status-buttons a.active span.round-tabs.three {
+    background: #3e5e9a;
+    color: #fff
+}
+
+#status-buttons a.active span.round-tabs.four {
+    background: #88f15e;
+    color: #fff
+}
+
+#status-buttons a.active span.round-tabs.five {
+  background: green;
+  color: #fff
+}
+
+
+.iradio_buttons {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: #febe29 no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.iradio_buttons {
+    background-position: -120px 0;
+}
+.iradio_buttons.hover {
+    background-position: -144px 0;
+}
+.iradio_buttons.checked {
+    background-position: -168px 0;
+}
+
+
+/* Slider */
+
+.slidecontainer {
+  /* width: 100%; */
+  margin-left: -3%;
+  box-sizing: border-box;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 60%;
+  height: 10px;
+  border-radius: 20px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  /* margin-left: 35px; */
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 25px;
+  border-radius: 50%;
+  background: rgba(29, 122, 209, 0.863);
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 70%;
+  background: rgb(87, 97, 87);
+  cursor: pointer;
+}
+
+
+.navbar-collapse {
+  margin-left: 20px;
+}
+
+.navbar-brand {
+  color: white;
+  margin-left: -1%;
+  font-size: 23px;
+}
+
+
+/* .modal-footer {
+  padding-top: 150px;
+}
+*/
+
+
+.md-slider {
+
+  height: 48px;
+  position: relative;
+  display: block;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding: 0;
+
+ }
+
+.box {
+  margin-left: 0%;
+  width: 10%;
+}
+
+/* ok */
+
+/* a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.next {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+} */
+
+/* End for ok */
+
+.button5 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 20px 217px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+
+.card-deck .card {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 1 0 0%;
+  flex: 1 0 0%;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-right: -27px;
+  margin-bottom: 0;
+  margin-left: 19px;
+}
+
+
+.col-md-2 {
+
+  position: relative;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 8px;
+}
